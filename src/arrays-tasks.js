@@ -288,7 +288,6 @@ function createNDimensionalArray(n, size) {
   }
   const temp = createNDimensionalArray(d, size);
   arr.fill(temp, 0, size);
-  console.debug(arr);
   return arr;
 }
 
